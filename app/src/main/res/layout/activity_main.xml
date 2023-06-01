@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="216dp"
+        android:layout_marginRight='10dp'
+        android:layout_marginBottom="107dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="25sp"
+        app:cardElevation="50sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="344dp">
+
+            <TextView
+                android:id="@+id/connexion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Connexion"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginRight="15dp"
+                android:gravity="center"
+                android:text="Complétez ces inscription afin de vous connectez a vote compte"
+                android:textColor="@color/black"
+                android:textSize="20sp"></TextView>
+
+            <EditText
+                android:id="@+id/identifiant"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="100dp"
+                android:layout_marginRight="10dp"
+                android:hint="identifiant"
+                android:padding="10dp"></EditText>
+
+            <EditText
+                android:id="@+id/mdp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="170dp"
+                android:layout_marginRight="10dp"
+                android:hint="Mot de Passe "
+                android:inputType="textPassword"
+                android:padding="10dp">
+            </EditText>
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginLeft="111dp"
+                android:layout_marginTop="230dp"
+                android:layout_marginRight="111dp"
+                android:backgroundTint="@color/black"
+                android:text="SE CONNECTER"
+                android:textColor="@color/white">
+            </Button>
+
+
+        </RelativeLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

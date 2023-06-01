@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainReussie3"
+    android:background='@color/purple_700'
+    >
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="25sp"
+        app:cardElevation="50sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginRight='10dp'>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="344dp">
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="141dp"
+                android:layout_marginLeft="141dp"
+                android:layout_marginTop="60dp"
+                android:layout_marginEnd="92dp"
+                android:layout_marginRight="111dp"
+                android:backgroundTint="@color/black"
+                android:text="Ouvrir Le Portail"
+                android:textColor="@color/white">
+
+
+            </Button>
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="141dp"
+                android:layout_marginLeft="121dp"
+                android:layout_marginTop="130dp"
+                android:layout_marginEnd="92dp"
+                android:layout_marginRight="111dp"
+                android:backgroundTint="@color/black"
+                android:text="Gérer les utilisateurs"
+                android:textColor="@color/white">
+
+
+            </Button>
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="141dp"
+                android:layout_marginLeft="111dp"
+                android:layout_marginTop="200dp"
+                android:layout_marginEnd="92dp"
+                android:layout_marginRight="111dp"
+                android:backgroundTint="@color/black"
+                android:text="Se Deconnecter"
+                android:textColor="@color/white">
+
+
+            </Button>
+            <TextView
+                android:id="@+id/test"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginRight="15dp"
+                android:gravity="center"
+                android:text="Ceci est un test"
+                android:textColor="@color/black"
+                android:textSize="20sp"></TextView>
+
+
+
+        </RelativeLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
